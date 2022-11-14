@@ -1,0 +1,13 @@
+.artigos{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
