@@ -1,22 +1,16 @@
 <div class="container__big-card">
   <div class="big-card__foto">
-    <img
-      src="https://cdn.searchenginejournal.com/wp-content/uploads/2019/04/the-seo-guide-to-angular-1520x800.png"
-      alt=""
-      height="200px"
-      width="400px"
-    />
+    <img src="{{ imagem }}" alt="" height="200px" width="400px" />
   </div>
   <div class="big-card__titulo">
-    <h1><a href="#">Saiu a nova versão do angular 16!</a></h1>
+    <h1>
+      <a href="#">{{ titulo }}</a>
+    </h1>
   </div>
   <div class="big-card__descricao">
     <p>
       <a href="#">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
-        eligendi. Consequuntur eum culpa aspernatur vitae! Atque cumque
-        reiciendis nulla hic soluta, animi doloremque dolore iusto recusandae,
-        rem voluptate neque? Rerum!
+        {{ descricao }}
       </a>
     </p>
   </div>
