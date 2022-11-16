@@ -10,9 +10,8 @@ export class SmallCardComponent implements OnInit {
   imagem:string = "";
   @Input()
   titulo:string = "";
- 
-
-
+  @Input()
+  Id:string = "0";
   constructor() { }
 
   ngOnInit(): void {
